@@ -2,6 +2,10 @@
     --primary-text-color: #E5E5E5; 
      --title-text-color:#212121;
      --accent-color:#2196F3;
+     --paragraph-text-color:#757575;
+     --background-button-color:#F5F4FA;
+     --address-color:#FFFFFF;
+     --address-link-color:rgba(255, 255, 255, 0.6);
 }
 
 
@@ -20,17 +24,19 @@ line-height: 1.14;
     font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 26px;
-    line-height: 1.19
+    line-height: 1.19;
+    text-decoration: none;
 }
 .part-logo{
-    color: var(--accent-color)
+    color: var(--accent-color);
 }
 ul {list-style: none;
 }
 
 /* Site-nav */
 .site-nav .link{
-    color: var(--title-text-color)
+    color: var(--title-text-color);
+    text-decoration: none;
 }
  .site-nav .link:hover,
  .site-nav .link:focus{
@@ -44,7 +50,7 @@ ul {list-style: none;
 
 /* Contacts */
 .contact-type .contact-link{
-    color: var(--title-text-color);
+    color: var(--paragraph-text-color);
     font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -76,6 +82,15 @@ font-style: normal;
 font-weight: 700;
 font-size: 14px;
 line-height: 1.14;
+}
+.paragraph{
+color: var(--paragraph-text-color);
+font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
 }
 
 /* Work */
@@ -112,4 +127,58 @@ background-color: var(--accent-color);
 .button.secondary:focus{
     color: var(--primary-text-color);
     background-color: var(--accent-color);
+}
+/* Hero */
+.item{
+    color: var(--paragraph-text-color);
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+
+}
+.name .name-hero{
+    color: var(--title-text-color);
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+}
+/* Example */
+.example .example-name{
+    color: var(--title-text-color);
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+}
+.paragraphs{
+    color: var(--paragraph-text-color);
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.8;
+}
+/* Address */
+.address .contacts-link{
+    color: var(--address-color);
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
+.address-link{
+    color: var(--address-link-color);
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
 }
